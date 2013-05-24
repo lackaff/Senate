@@ -1,8 +1,8 @@
 development:
-	#use LDAP authentication?
-	auth_ldap: false
-	#use local users?
-	auth_local: true
+  #use LDAP authentication?
+  auth_ldap: false
+  #use local users?
+  auth_local: true
   #your domain name - used for logging in as "domain\you"
   ldap_domain_login: test
   #your email domain name
@@ -22,12 +22,12 @@ development:
   email_server_port: 25
   #TLS?
   email_tls_auto: true
-  
+
 test:
   domain: test.host
 
 production:
   domain: example.com
 
-  
-  
+
+
